@@ -1,6 +1,6 @@
 module.exports = {
   title: '海之心和吨吨吨的小天地',
-  description: '我的个人网站',
+  description: '我de个人网站',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/images/my1.jpg' }],
     ['link', { rel: 'icon', href: '/images/my2.jpg' }],
