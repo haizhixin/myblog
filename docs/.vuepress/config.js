@@ -1,13 +1,10 @@
 module.exports = {
-  title: '海之心和吨吨吨的小天地',
-  description: '我de个人网站',
+  title: '前端知识博客',
+  description: '前端进阶',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
-    ['link', { rel: 'icon', href: '/images/my1.jpg' }],
-    ['link', { rel: 'icon', href: '/images/my2.jpg' }],
-    ['link', { rel: 'manifest', href: '/images/my2.jpg' }],
-    ['link', { rel: 'manifest', href: '/images/my1.jpg' }],
-    ['link', { rel: 'apple-touch-icon', href: '/images/my1.jpg' }],
-    ['link', { rel: 'apple-touch-icon', href: '/images/my2.jpg' }],
+    ['link', { rel: 'icon', href: '/images/logo.jpg' }],
+    ['link', { rel: 'manifest', href: '/images/logo.jpg' }],
+    ['link', { rel: 'apple-touch-icon', href: '/images/logo.jpg' }],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache'}],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate'}],
     ['meta', { 'http-quiv': 'expires', cotent: '0'}]
@@ -19,10 +16,13 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
-      {text: '诗和远方', link: '/others/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      {text: 'Home', link: '/home/' },
+      {text: '前端知识', link: '/feknowledge/'},
+      {text: '源码', link: '/source/'},
+      {text: '算法', link: '/algorithm/'},
+      {text: '工具', link: '/tools/'},
+      {text: '技术之外', link: '/others/'},
+      {text: 'GitHub', link: 'https://github.com/haizhixin/myblog'}      
     ],
     // sidebar:{
     //   '/accumulate/': [

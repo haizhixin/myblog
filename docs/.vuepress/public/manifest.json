@@ -8,11 +8,7 @@
   "theme_color": "blue",
   "icons": [
     {
-      "src": "./my1.jpg",
-      "sizes": "144x144",
-      "type": "image/png"
-    },{
-      "src": "./my2.jpg",
+      "src": "./logo.jpg",
       "sizes": "144x144",
       "type": "image/png"
     }
